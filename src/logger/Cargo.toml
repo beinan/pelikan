@@ -8,4 +8,4 @@ edition = "2018"
 [dependencies]
 common = { path = "../common" }
 config = { path = "../config" }
-rustcommon-logger = { git = "https://github.com/twitter/rustcommon" }
+rustcommon-logger = { git = "https://github.com/twitter/rustcommon", rev = "fc9c565"}

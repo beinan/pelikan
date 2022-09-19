@@ -39,6 +39,7 @@ thiserror = "1.0.24"
 [dependencies.rustcommon-metrics]
 git = "https://github.com/twitter/rustcommon"
 features = ["heatmap"]
+rev = "fc9c565"
 
 [dev-dependencies]
 criterion = "0.3.4"

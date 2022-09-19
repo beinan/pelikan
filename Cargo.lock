@@ -370,7 +370,7 @@ dependencies = [
  "net",
  "rustcommon-logger",
  "rustcommon-metrics 0.1.1 (git+https://github.com/twitter/rustcommon?rev=fc9c565)",
- "rustcommon-time 0.0.12 (git+https://github.com/twitter/rustcommon)",
+ "rustcommon-time 0.0.12 (git+https://github.com/twitter/rustcommon?rev=fc9c565)",
  "serde",
 ]
 
@@ -1180,7 +1180,7 @@ dependencies = [
  "foreign-types-shared",
  "libc",
  "mio 0.8.4",
- "rustcommon-metrics 0.1.1 (git+https://github.com/twitter/rustcommon)",
+ "rustcommon-metrics 0.1.1 (git+https://github.com/twitter/rustcommon?rev=fc9c565)",
 ]
 
 [[package]]
@@ -1822,13 +1822,13 @@ dependencies = [
 [[package]]
 name = "rustcommon-logger"
 version = "0.1.0"
-source = "git+https://github.com/twitter/rustcommon#eb44fc27260fbd64fa41b8744f1831be7d1db945"
+source = "git+https://github.com/twitter/rustcommon?rev=fc9c565#fc9c565288ac50b9e2df68cbbc40b00f5114a707"
 dependencies = [
  "ahash",
  "log",
  "mpmc",
- "rustcommon-metrics 0.1.1 (git+https://github.com/twitter/rustcommon)",
- "rustcommon-time 0.0.12 (git+https://github.com/twitter/rustcommon)",
+ "rustcommon-metrics 0.1.1 (git+https://github.com/twitter/rustcommon?rev=fc9c565)",
+ "rustcommon-time 0.0.12 (git+https://github.com/twitter/rustcommon?rev=fc9c565)",
 ]
 
 [[package]]
@@ -2007,7 +2007,7 @@ dependencies = [
  "rand",
  "rand_chacha",
  "rand_xoshiro",
- "rustcommon-metrics 0.1.1 (git+https://github.com/twitter/rustcommon)",
+ "rustcommon-metrics 0.1.1 (git+https://github.com/twitter/rustcommon?rev=fc9c565)",
  "storage-types",
  "thiserror",
 ]

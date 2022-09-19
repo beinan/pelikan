@@ -23,6 +23,8 @@ rev = "fc9c565"
 
 [dependencies.rustcommon-logger]
 git = "https://github.com/twitter/rustcommon"
+rev = "fc9c565"
 
 [dependencies.rustcommon-time]
 git = "https://github.com/twitter/rustcommon"
+rev = "fc9c565"
